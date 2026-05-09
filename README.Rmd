@@ -5,92 +5,66 @@ date: "`r format(Sys.Date(), '%d %B %Y')`"
 output: github_document
 ---
 
-```{r setup, include=FALSE}
+`r ''``{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-```
+`
 
+# Bienvenue dans mon Labo Machine Learning ! 🧠
 
-Bienvenue dans mon Labo Machine Learning ! 🧠
 Bonjour et bienvenue dans ce dépôt GitHub ! 👋
 
-Ce répertoire est une collection évolutive de projets et de notebooks Jupyter dédiés à l'exploration et à la maîtrise des concepts fondamentaux du Machine Learning.
-Que vous soyez un débutant curieux ou un data scientist confirmé souhaitant rafraîchir ses connaissances, vous trouverez ici des ressources claires, pratiques et prêtes à l'emploi.
+Ce répertoire est une collection évolutive de **notebooks Jupyter** dédiés à l'exploration et à la maîtrise des concepts fondamentaux du Machine Learning. Que vous soyez un débutant curieux ou un data scientist confirmé souhaitant rafraîchir ses connaissances, vous trouverez ici des ressources claires, pratiques et prêtes à l'emploi.
 
-Mon objectif est de rendre l'apprentissage du ML accessible et ludique, en utilisant des datasets réels et des explications pas à pas.
-Chaque notebook est conçu pour être exécuté de bout en bout, vous permettant de voir les algorithmes en action et de comprendre leurs mécanismes.
+Mon objectif est simple : **rendre l'apprentissage du ML accessible et ludique**, en utilisant des datasets réels et des explications pas à pas. Chaque notebook est conçu pour être exécuté de bout en bout, vous permettant de voir les algorithmes en action et de comprendre leurs mécanismes.
 
+---
 
-🌟 Ce que vous trouverez ici
-Ce dépôt est structuré pour vous guider à travers les différentes facettes du Machine Learning. Voici un aperçu des ressources disponibles :
+## 🌟 Ce que vous trouverez ici
 
-📚 Concepts Fondamentaux
-J'ai préparé une série de notebooks pédagogiques, inspirés par une approche visuelle et progressive :
+Ce dépôt est structuré pour vous guider à travers les différentes facettes du Machine Learning.
 
+### 📚 Concepts Fondamentaux (Notebooks)
 
-Ce dépôt est organisé pour vous guider à travers les différentes facettes du Machine Learning. Voici un aperçu de ce que vous pouvez explorer :
-
-### 📚 Concepts Fondamentaux
-
-J'ai préparé une série de notebooks pour démystifier les algorithmes clés, inspirés par un style pédagogique et visuel :
-
-*   **`01_Regression_Lineaire.ipynb`** : Plongez dans la **régression supervisée** avec le dataset California Housing. Découvrez la droite de régression, le MSE, le R², et la gestion de l'overfitting.
-*   **`02_Classification_KNN.ipynb`** : Explorez la **classification supervisée** en classant les espèces de fleurs Iris. Apprenez le fonctionnement de KNN, la matrice de confusion, la précision, le rappel et le F1-score.
-*   **`03_Clustering_KMeans.ipynb`** : Initiez-vous à l'**apprentissage non supervisé** en segmentant des clients (Mall Customers). Comprenez le clustering, l'inertie et la méthode du coude.
-*   **`04_Reseaux_Neurones_Simple.ipynb`** : Faites vos premiers pas dans le **Deep Learning** avec les réseaux de neurones et le dataset MNIST. Découvrez les couches, les fonctions d'activation et la rétropropagation.
-*   **`05_RandomForest_vs_ArbreDecision.ipynb`** : Comparez la puissance des **arbres de décision** et des **forêts aléatoires** sur le dataset Titanic, en explorant l'importance des features et le surapprentissage.
+| Notebook | Description |
+|----------|-------------|
+| **`01_Regression_Lineaire.ipynb`** | Plongez dans la **régression supervisée** avec le dataset California Housing. Découvrez la droite de régression, le MSE, le R², et la gestion de l'overfitting. |
+| **`02_Classification_KNN.ipynb`** | Explorez la **classification supervisée** en classant les espèces de fleurs Iris. Apprenez le fonctionnement de KNN, la matrice de confusion, la précision, le rappel et le F1-score. |
+| **`03_Clustering_KMeans.ipynb`** | Initiez-vous à l'**apprentissage non supervisé** en segmentant des clients (Mall Customers). Comprenez le clustering, l'inertie et la méthode du coude. |
+| **`04_Reseaux_Neurones_Simple.ipynb`** | Faites vos premiers pas dans le **Deep Learning** avec les réseaux de neurones et le dataset MNIST. Découvrez les couches, les fonctions d'activation et la rétropropagation. |
+| **`05_RandomForest_vs_ArbreDecision.ipynb`** | Comparez la puissance des **arbres de décision** et des **forêts aléatoires** sur le dataset Titanic, en explorant l'importance des features et le surapprentissage. |
 
 ### 📄 Guide Théorique
 
-*   **`Eclaircissement_ML.pdf`** : Un guide concis pour clarifier les concepts clés de l'IA et du ML, avec des schémas, des définitions courtes et des exemples concrets. Idéal pour une révision rapide ou pour poser les bases.
+- **`Eclaircissement_ML.pdf`** : Un guide concis pour clarifier les concepts clés de l'IA et du ML, avec des schémas, des définitions courtes et des exemples concrets. Idéal pour une révision rapide ou pour poser des bases solides.
 
 ### ➕ Et bien plus encore !
 
-Ce dépôt est destiné à s'enrichir. Vous y trouverez (ou y trouverez bientôt) d'autres projets explorant :
+Ce dépôt est destiné à s'enrichir. Vous trouverez bientôt :
 
-*   Des techniques de pré-traitement des données (nettoyage, encodage, scaling).
-*   D'autres algorithmes de classification (SVM, Logistic Regression).
-*   Des méthodes d'ensemble plus avancées (Gradient Boosting).
-*   Des applications de Deep Learning pour la vision par ordinateur ou le traitement du langage naturel.
-*   Des études de cas réels et des compétitions Kaggle.
+- Des techniques de **prétraitement des données** (nettoyage, encodage, scaling)
+- D'autres algorithmes de **classification** (SVM, régression logistique)
+- Des **méthodes d'ensemble** avancées (Gradient Boosting, XGBoost)
+- Des applications de **Deep Learning** (vision par ordinateur, NLP)
+- Des **études de cas réels** et des compétitions Kaggle
 
+---
 
-📄 Guide Théorique
-Eclaircissement_ML.pdf : Un guide concis pour clarifier les concepts clés de l'IA et du ML (avec schémas, définitions courtes et exemples concrets). Idéal pour une révision rapide ou pour poser des bases solides.
+## 🚀 Comment utiliser ce dépôt
 
-➕ Et bien plus encore !
-Ce dépôt est appelé à s'enrichir régulièrement. Voici quelques ajouts à venir :
+###  Cloner le dépôt
 
-Techniques de prétraitement des données (nettoyage, encodage, scaling)
-
-Autres algorithmes de classification (SVM, régression logistique)
-
-Méthodes d’ensemble avancées (Gradient Boosting, XGBoost)
-
-Applications de Deep Learning (vision par ordinateur, NLP)
-
-Études de cas réels et participation à des compétitions Kaggle
-
-🚀 Comment utiliser ce dépôt
-
-
-Cloner le dépôt :
-
+```bash
 git clone https://github.com/FOFANA-Lamine/ML1.git
 cd ML1
 
-
 🤝 Contributions et Feedback
-
-Les contributions sont les bienvenues !
-Si vous avez des suggestions, des corrections, ou si vous souhaitez ajouter vos propres projets :
+Les contributions sont les bienvenues ! Si vous avez des suggestions, des corrections, ou si vous souhaitez ajouter vos propres projets :
 
 Ouvrez une issue pour discuter des modifications
 
 Soumettez une pull request avec vos améliorations
 
-Le feedback est également très apprécié. Si un concept n’est pas clair ou si vous avez des questions, n’hésitez pas à me contacter.
-
-
+Le feedback est également très apprécié. Si un concept n'est pas clair ou si vous avez des questions, n'hésitez pas à me contacter.
 
 📄 Licence
 Ce projet est sous licence MIT License – voir le fichier LICENSE pour plus de détails.
