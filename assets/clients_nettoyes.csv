@@ -1,0 +1,13 @@
+ID,Nom,Âge,Genre,Email,Téléphone,Ville,Code_Postal,Revenu,Date_Naissance,Date_Inscription,Statut,Score,Commentaire,Montant_Achat,Email_valide
+1,Alice,25.0,F,alice@email.com,0612345678,Paris,75001,50000.0,1998-05-15,2020-01-15,Actif,85.5,RAS,1500.5,True
+2,Bob,30.0,M,,0612345679,Paris,69001,60000.0,,2020-01-15,Actif,90.0,,2000.0,False
+3,Mia,29.0,F,mia@email.com,0612345685,Nice,06000,48000.0,1994-11-30,2021-04-18,Inactif,81.2,Satisfait,1950.25,True
+4,David,,M,DAVID@EMAIL.COM,,Lyon,31000,55000.0,,2021-03-10,Autre,,,3000.0,True
+5,Eve,28.0,F,eve@email.com,,Marseille,75002,,,2018-12-01,Actif,,Client fidèle depuis 5 ans!!!,2500.0,True
+6,Frank,,M,,,Toulouse,31001,70000.0,,2022-07-25,Autre,88.8,"alert(""hack"")",,False
+7,Grace,,F,grace@email.com,0612345682,Toulouse,,65000.0,,2023-02-14,Actif,,OK,1800.75,True
+9,Ivy,16.0,Inconnu,,0000000000,,,,,2024-05-05,Actif,,,,False
+10,Jack,35.0,M,jack@email.com,0612345684,Bordeaux,33000,72000.0,,2016-11-11,Autre,76.4,Client premium Multi-ligne,2200.0,True
+11,Alice,25.0,F,alice@email.com,0612345678,Paris,75001,50000.0,1998-05-15,2020-01-15,Actif,85.5,RAS,1500.5,True
+12,Léo,,M,,,,,,,2025-08-20,Actif,,,676.41,False
+15,Nina,,F,nina@email.com,0612345686,Lille,59000,62000.0,1991-09-25,2020-06-30,Actif,79.9,,2100.0,True
